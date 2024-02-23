@@ -54,6 +54,7 @@ public class Looping {
             a = b;
             b = c;
             c = next;
+        }
     }
 }
 
