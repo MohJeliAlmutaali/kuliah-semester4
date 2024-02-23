@@ -39,6 +39,21 @@ public class Looping {
             b = c;
         }
         System.out.println();
+        
+        // f. 0 1 2 3 6 11 20 37
+        
+        int a = 0;
+        int b = 1;
+        int c = 2;
+        
+        System.out.print(a + " " + b + " " + c + " ");
+        
+        for (int i = 3; i < 8; i++) {
+            int next = a + b + c;
+            System.out.print(next + " ");
+            a = b;
+            b = c;
+            c = next;
     }
 }
 
