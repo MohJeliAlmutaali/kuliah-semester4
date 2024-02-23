@@ -42,8 +42,8 @@ public class Looping {
         
         // f. 0 1 2 3 6 11 20 37
         
-        int a = 0;
-        int b = 1;
+        a = 0;
+        b = 1;
         int c = 2;
         
         System.out.print(a + " " + b + " " + c + " ");
@@ -57,4 +57,3 @@ public class Looping {
         }
     }
 }
-
