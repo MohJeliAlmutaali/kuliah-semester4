@@ -27,7 +27,4 @@ public class Books {
         return publisherNumber;
     }
 
-    public String toString() {
-        return "Title: " + title + ", Author: " + author + ", Price: $" + price + ", Publisher Number: " + publisherNumber;
-    }
 }
