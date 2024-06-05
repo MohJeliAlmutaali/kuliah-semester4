@@ -1,0 +1,12 @@
+2024-06-03 22:32:15.943325+07:00 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Table "BOOK" not found (this database is empty); SQL statement:
+select b1_0.id,b1_0.author,b1_0.title from book b1_0 [42104-224]
+2024-06-03 22:32:18.073419+07:00 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Table "BOOK" not found (this database is empty); SQL statement:
+select b1_0.id,b1_0.author,b1_0.title from book b1_0 [42104-224]
+2024-06-03 22:32:26.908163+07:00 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Table "BOOK" not found (this database is empty); SQL statement:
+select b1_0.id,b1_0.author,b1_0.title from book b1_0 [42104-224]
+2024-06-03 22:33:07.475969+07:00 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Table "BOOK" not found (this database is empty); SQL statement:
+select b1_0.id,b1_0.author,b1_0.title from book b1_0 [42104-224]
