@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Menu Utama</title>
+    <!-- Include Tailwind CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.16/dist/tailwind.min.css" rel="stylesheet">
+    <style>
+        .modern-card {
+            background: #ffffff;
+            border-radius: 15px;
+            box-shadow: 0 10px 15px rgba(0, 0, 0, 0.1);
+        }
+        .modern-button {
+            background: linear-gradient(90deg, #4f46e5, #5b21b6);
+            border-radius: 10px;
+            transition: all 0.3s ease;
+        }
+        .modern-button:hover {
+            background: linear-gradient(90deg, #5b21b6, #4f46e5);
+            box-shadow: 0 5px 10px rgba(0, 0, 0, 0.1);
+        }
+    </style>
+</head>
+<body class="bg-gray-100 p-6">
+
+<div class="max-w-5xl mx-auto p-6 rounded-lg modern-card">
+    <h1 class="text-2xl font-bold mb-6 text-gray-800">Menu Utama</h1>
+
+    <!-- Tombol Tambah Guru -->
+    <button id="btnTambahGuru" class="py-2 px-6 text-white modern-button mb-6">Tambah Guru</button>
+
+    <!-- Daftar Guru -->
+    <h2 class="text-xl font-semibold mb-4 text-gray-800">Daftar Guru</h2>
+    <div id="guruListContainer" class="overflow-x-auto">
+        <table class="min-w-full divide-y divide-gray-200">
+            <thead class="bg-gray-50">
+            <tr>
+                <th scope="col" class="px-6 py-3 text-left text-xs font-medium text-gray-500 uppercase tracking-wider">Nama</th>
+                <th scope="col" class="px-6 py-3 text-left text-xs font-medium text-gray-500 uppercase tracking-wider">Tingkat Pendidikan</th>
+                <th scope="col" class="px-6 py-3 text-left text-xs font-medium text-gray-500 uppercase tracking-wider">Tahun Pengalaman</th>
+                <th scope="col" class="px-6 py-3 text-left text-xs font-medium text-gray-500 uppercase tracking-wider">Lokasi</th>
+                <th scope="col" class="px-6 py-3 text-left text-xs font-medium text-gray-500 uppercase tracking-wider">Gaji</th>
+                <th scope="col" class="px-6 py-3 text-left text-xs font-medium text-gray-500 uppercase tracking-wider">Aksi</th>
+            </tr>
+            </thead>
+            <tbody id="guruTableBody" class="bg-white divide-y divide-gray-200">
+            <!-- Daftar guru akan ditampilkan di sini -->
+            </tbody>
+        </table>
+    </div>
+</div>
+
+<!-- Include JavaScript -->
+<script src="./js/menu.js"></script>
+
+</body>
+</html>
