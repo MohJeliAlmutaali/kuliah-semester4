@@ -1,0 +1,45 @@
+/* tambahkan ke file CSS Anda, misalnya App.css */
+.react-calendar__tile--active {
+  border-radius: 5px;
+  background-color: unset;
+  color: black;
+}
+
+  .hadir {
+    background-color: blue !important;
+    color: white !important;
+  }
+  
+  .sakit {
+    background-color: red !important;
+    color: white !important;
+  }
+  
+  .alfa {
+    background-color: yellow !important;
+    color: black !important;
+  }
+  
+  .izin {
+    background-color: blue !important;
+    color: white !important;
+  }
+  
+  /* Pastikan bahwa tanggal dengan status juga memiliki gaya aktif */
+  .react-calendar__tile--active.sakit {
+    background-color: green !important;
+  }
+  
+  .react-calendar__tile--active.alfa {
+    background-color: red !important;
+  }
+  
+  .react-calendar__tile--active.izin {
+    background-color: yellow !important;
+    color: black !important;
+  }
+  
+  .react-calendar__tile--active.cuti {
+    background-color: blue !important;
+  }
+  
